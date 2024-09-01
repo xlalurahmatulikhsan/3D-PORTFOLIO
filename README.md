@@ -1,22 +1,10 @@
 <div align="center">
-  <br />
-    <a href="#" target="_blank">
-      <img src="https://github.com/adrianhajdin/project_3D_developer_portfolio/assets/151519281/4722160a-8e61-403f-a905-728feae1f7e6" alt="Project Banner">
-    </a>
-  <br />
-
-  <div>
-    <img src="https://img.shields.io/badge/-React_JS-black?style=for-the-badge&logoColor=white&logo=react&color=61DAFB" alt="react.js" />
-    <img src="https://img.shields.io/badge/-Three_JS-black?style=for-the-badge&logoColor=white&logo=threedotjs&color=000000" alt="three.js" />
-    <img src="https://img.shields.io/badge/-Tailwind_CSS-black?style=for-the-badge&logoColor=white&logo=tailwindcss&color=06B6D4" alt="tailwindcss" />
-  </div>
-
   <h3 align="center">3D Portfolio</h3>
 </div>
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Dengan mengembangkan proyek ini, Anda akan memperoleh pengalaman langsung dalam menciptakan pengalaman web yang imersif, menguasai pustaka 3D, dan menerapkan animasi yang menarik. Kombinasi kreativitas dan keterampilan teknis yang ditampilkan dalam proyek ini menjadi peluang pembelajaran yang sangat baik bagi para pengembang yang ingin meningkatkan portofolio mereka dan memikat pengguna dengan desain web yang mutakhir.
+Proyek ini memberikan anda kesempatan untuk merasakan langsung bagaimana menciptakan pengalaman web yang mendalam dan memukau. Dengan menguasai pustaka 3D dan menerapkan animasi yang memikat, Anda akan menggabungkan kreativitas dengan keterampilan teknis untuk menghasilkan karya yang tidak hanya memikat pengguna, tetapi juga meningkatkan portfolio Anda. Proyek ini adalah jalan bagi para pengembang yang berambisi untuk menguasai seni desain web moderen dan menginspirasi melalui novasi teknologi.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -30,31 +18,31 @@ Dengan mengembangkan proyek ini, Anda akan memperoleh pengalaman langsung dalam 
 
 ## <a name="features">🔋 Features</a>
 
-👉 **Customizable 3D Hero Section**: Includes a 3D desktop model easily customizable to suit specific needs.
+👉 **Bagian Hero 3D yang Dapat Disesuaikan**: Termasuk model desktop 3D yang mudah disesuaikan untuk memenuhi kebutuhan spesifik.
 
-👉 **Interactive Experience and Work Sections**: Utilizes animations powered by framer motion for engaging user experience.
+👉 **Pengalaman Interaktif dan Bagian Pekerjaan**: Memanfaatkan animasi yang didukung oleh framer motion untuk pengalaman pengguna yang menarik.
 
-👉 **3D Skills Section**: Showcases skills using 3D geometries through three.js and React Three fiber
+👉 **Bagian Keterampilan 3D**:  Menampilkan keterampilan menggunakan geometri 3D melalui three.js dan React Three Fiber.
 
-👉 **Animated Projects and Testimonials**: Features animated sections using framer motion for projects and client testimonials.
+👉 **Proyek dan Testimonial yang Dianimasikan**: Menampilkan bagian proyek dan testimonial klien yang dianimasikan menggunakan framer motion.
 
-👉 **Contact Section with 3D Earth Model**:Integrates a 3D earth model with email functionality powered by emailjs.
+👉 **Bagian Kontak dengan Model Bumi 3D**: Mengintegrasikan model bumi 3D dengan fungsionalitas email yang didukung oleh emailjs.
 
-👉 **3D Stars**: Generate stars progressively at random positions using Three.js for background display.
+👉 **Bintang 3D**: Menghasilkan bintang secara progresif di posisi acak menggunakan Three.js untuk tampilan latar belakang.
 
-👉 **Consistent Animations**: Implements cohesive animations throughout the website using framer motion.
+👉 **Animasi yang Konsisten**: Menerapkan animasi yang kohesif di seluruh situs web menggunakan framer motion.
 
-👉 **Responsive Design**: Ensures optimal display and functionality across all devices.
+👉 **Desain Responsif**: Memastikan tampilan dan fungsionalitas optimal di semua perangkat.
 
-and many more, including code architecture and reusability 
+Dan masih banyak lagi, termasuk arsitektur kode dan kemampuan penggunaan ulang.
 
 ## <a name="quick-start">🤸 Quick Start</a>
 
-Follow these steps to set up the project locally on your machine.
+Ikuti langkah-langkah berikut untuk mengatur proyek ini secara lokal di mesin Anda.
 
-**Prerequisites**
+**Prasyarat**
 
-Make sure you have the following installed on your machine:
+Pastikan Anda telah menginstal hal-hal berikut di mesin Anda:
 
 - [Git](https://git-scm.com/)
 - [Node.js](https://nodejs.org/en)
@@ -69,7 +57,7 @@ cd Portfolio
 
 **Installation**
 
-Install the project dependencies using npm:
+Instal dependensi proyek menggunakan npm:
 
 ```bash
 npm install
@@ -77,15 +65,15 @@ npm install
 
 **Set Up Environment Variables**
 
-Create a new file named `.env` in the root of your project and add the following content:
+Buat file baru bernama `.env` di root proyek Anda dan tambahkan konten berikut:
 
 ```env
-VITE_APP_EMAILJS_PUBLIC_KEY=your_emailjs_user_id
+VITE_APP_EMAILJS_SERVICE_ID=your_emailjs_user_id
 VITE_APP_EMAILJS_TEMPLATE_ID=your_emailjs_template_id
-VITE_APP_EMAILJS_SERVICE_ID=your_emailjs_service_id
+VITE_APP_EMAILJS_PUBLIC_KEY=your_emailjs_service_id
 ```
 
-Replace the placeholder values with your actual EmailJS credentials. You can obtain these credentials by signing up on the [EmailJS website](https://www.emailjs.com/).
+Ganti nilai placeholder dengan kredensial EmailJS Anda yang sebenarnya. Anda dapat memperoleh kredensial ini dengan mendaftar di [situs web EmailJS](https://www.emailjs.com/).
 
 **Running the Project**
 
@@ -93,7 +81,7 @@ Replace the placeholder values with your actual EmailJS credentials. You can obt
 npm run dev
 ```
 
-Open [http://localhost:5173](http://localhost:5173) in your browser to view the project.
+Buka [http://localhost:5173](http://localhost:5173) di browser Anda untuk melihat proyek.
 
 ## <a name="snippets">🕸️ Snippets</a>
 
@@ -736,3 +724,6 @@ module.exports = {
 </details>
 
 #
+<div align="center">
+  <h3 align="center">Itu Saja Terimakasih</h3>
+</div>
