@@ -1,5 +1,5 @@
 <div align="center">
-  <h3 align="center">3D Portfolio</h3>
+  <h3 align="center">✨3D Portfolio✨</h3>
 </div>
 
 ## <a name="introduction">🤖 Introduction</a>
@@ -725,5 +725,5 @@ module.exports = {
 
 #
 <div align="center">
-  <h3 align="center">Itu Saja Terimakasih</h3>
+  <h3 align="center">Itu Saja Terimakasih😀</h3>
 </div>
