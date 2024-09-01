@@ -54,7 +54,7 @@ const Login = () => {
               name="username"
               value={form.username}
               onChange={handleChange}
-              placeholder="Username"
+              placeholder="username?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>
@@ -64,7 +64,7 @@ const Login = () => {
               name="password"
               value={form.password}
               onChange={handleChange}
-              placeholder="Password"
+              placeholder="password?"
               className="bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
             />
           </label>

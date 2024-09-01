@@ -11,8 +11,11 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
+
 import Login from "./components/auth/Login";
 import Register from "./components/auth/Register";
+import ForgotPassword from "./components/auth/ForgotPassword";
+import ResetPassword from "./components/auth/ResetPassword";
 
 const App = () => {
   return (
@@ -52,6 +55,24 @@ const App = () => {
           element={
             <div className="relative z-0 bg-primary min-h-screen flex justify-center items-center">
               <Register />
+              <StarsCanvas />
+            </div>
+          }
+        />
+        <Route
+          path="/forgot-password"
+          element={
+            <div className="relative z-0 bg-primary min-h-screen flex justify-center items-center">
+              <ForgotPassword />
+              <StarsCanvas />
+            </div>
+          }
+        />
+        <Route
+          path="/resset-password"
+          element={
+            <div className="relative z-0 bg-primary min-h-screen flex justify-center items-center">
+              <ResetPassword />
               <StarsCanvas />
             </div>
           }
