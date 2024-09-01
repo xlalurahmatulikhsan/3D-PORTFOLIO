@@ -4,7 +4,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Proyek ini memberikan anda kesempatan untuk merasakan langsung bagaimana menciptakan pengalaman web yang mendalam dan memukau. Dengan menguasai pustaka 3D dan menerapkan animasi yang memikat, Anda akan menggabungkan kreativitas dengan keterampilan teknis untuk menghasilkan karya yang tidak hanya memikat pengguna, tetapi juga meningkatkan portfolio Anda. Proyek ini adalah jalan bagi para pengembang yang berambisi untuk menguasai seni desain web moderen dan menginspirasi melalui novasi teknologi.
+Selamat datang di dunia 3D saya! Portofolio ini adalah kumpulan karya saya yang dibuat menggunakan Three.js, sebuah library JavaScript yang kuat untuk membuat grafis 3D di web. Setiap proyek yang Anda lihat di sini adalah hasil dari eksperimen saya dalam menciptakan pengalaman visual yang menarik dan imersif. Dari model karakter yang detail hingga lingkungan 3D yang kompleks, saya selalu berusaha untuk mendorong batas-batas kreativitas saya. Portofolio ini tidak hanya menampilkan karya akhir, tetapi juga memberikan sekilas tentang proses kreatif saya, mulai dari konsep awal hingga hasil akhir.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
