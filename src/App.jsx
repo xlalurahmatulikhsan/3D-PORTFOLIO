@@ -11,7 +11,8 @@ import {
   Works,
   StarsCanvas,
 } from "./components";
-import Login from "./components/Login";
+import Login from "./components/auth/Login";
+import Register from "./components/auth/Register";
 
 const App = () => {
   return (
@@ -42,6 +43,15 @@ const App = () => {
           element={
             <div className="relative z-0 bg-primary min-h-screen flex justify-center items-center">
               <Login />
+              <StarsCanvas />
+            </div>
+          }
+        />
+        <Route
+          path="/register"
+          element={
+            <div className="relative z-0 bg-primary min-h-screen flex justify-center items-center">
+              <Register />
               <StarsCanvas />
             </div>
           }

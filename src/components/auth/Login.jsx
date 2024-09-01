@@ -1,27 +1,41 @@
-import React, { useRef, useState } from "react";
+import { useState } from 'react';
+import { useNavigate } from "react-router-dom";
 
 const Login = () => {
-  const formRef = useRef();
   const [form, setForm] = useState({
     username: "",
     password: "",
   });
-
   const [loading, setLoading] = useState(false);
-
+  const navigate = useNavigate();
   const handleChange = (e) => {
-    const { target } = e;
-    const { username, value } = target;
-
-    setForm({
-      ...form,
-      [username]: value,
-    });
+    setForm({ ...form, [e.target.name]: e.target.value });
   };
+
+  const apiUrl = import.meta.env.VITE_APP_API_URL;
 
   const handleSubmit = async (e) => {
     e.preventDefault();
     setLoading(true);
+
+    try {
+      const response = await fetch(`${apiUrl}/api/login`, {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify(form),
+      });
+      const data = await response.json();
+      if (response.ok) {
+        localStorage.setItem('accessToken', data.accessToken);
+        navigate('/dashboard');
+      } else {
+        alert(data.message);
+      }
+    } catch (error) {
+      alert('Login failed');
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -31,7 +45,6 @@ const Login = () => {
           Login
         </h3>
         <form
-          ref={formRef}
           onSubmit={handleSubmit}
           className="flex flex-col gap-6"
         >
@@ -59,7 +72,7 @@ const Login = () => {
             type="submit"
             className="bg-tertiary py-3 px-8 rounded-xl outline-none w-full text-white font-bold shadow-md shadow-primary"
           >
-            {loading ? "Sending..." : "Login"}
+            {loading ? "Logging in..." : "Login"}
           </button>
         </form>
       </div>
