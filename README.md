@@ -4,7 +4,8 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Selamat datang di dunia 3D saya! Portofolio ini adalah kumpulan karya saya yang dibuat menggunakan Three.js, sebuah library JavaScript yang kuat untuk membuat grafis 3D di web. Setiap proyek yang Anda lihat di sini adalah hasil dari eksperimen saya dalam menciptakan pengalaman visual yang menarik dan imersif. Dari model karakter yang detail hingga lingkungan 3D yang kompleks, saya selalu berusaha untuk mendorong batas-batas kreativitas saya. Portofolio ini tidak hanya menampilkan karya akhir, tetapi juga memberikan sekilas tentang proses kreatif saya, mulai dari konsep awal hingga hasil akhir.
+Portofolio ini adalah kumpulan karya 3d yang dibuat menggunakan Three.js, sebuah library JavaScript yang kuat untuk membuat grafis 3D di web. Dari model komputer dan globe yang detail hingga lingkungan 3D yang kompleks. Portofolio ini tidak hanya menampilkan karya akhir, tetapi juga memberikan sekilas tentang proses kreatif belajar, mulai dari konsep awal hingga hasil akhir. refrensi dari JavaScript Mastery
+programmer.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
 
@@ -725,5 +726,5 @@ module.exports = {
 
 #
 <div align="center">
-  <h3 align="center">Itu Saja Terimakasih😀</h3>
+  <h3 align="center">Terimakasih</h3>
 </div>
