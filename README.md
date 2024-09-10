@@ -4,7 +4,7 @@
 
 ## <a name="introduction">🤖 Introduction</a>
 
-Portofolio ini adalah kumpulan karya 3d yang dibuat menggunakan Three.js, sebuah library JavaScript yang kuat untuk membuat grafis 3D di web. Dari model komputer dan globe yang detail hingga lingkungan 3D yang kompleks. Portofolio ini tidak hanya menampilkan karya akhir, tetapi juga memberikan sekilas tentang proses kreatif belajar, mulai dari konsep awal hingga hasil akhir. refrensi dari JavaScript Mastery
+Portofolio ini adalah kumpulan karya 3d yang dibuat menggunakan Three.js, sebuah library JavaScript yang kuat untuk membuat grafis 3D di web. Dari model komputer dan globe yang detail hingga lingkungan 3D yang kompleks. Portofolio ini tidak hanya menampilkan karya akhir, tetapi juga memberikan sekilas tentang proses kreatif belajar, mulai dari konsep awal hingga hasil akhir. Refrensi dari JavaScript Mastery
 programmer.
 
 ## <a name="tech-stack">⚙️ Tech Stack</a>
